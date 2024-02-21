@@ -1,0 +1,27 @@
+
+Makefile:
+
+1. enter "make" to compile the program
+
+2. enter "./race_simulation" to Run the Program
+
+
+
+Input:
+horses: Number of horses greater than or equal to 2 (integer).
+trackL: Length of track. An integer greater than or equal to 2.
+
+Steps:
+Defines a horse class with name and position
+Define track class with methods to manage the race track length and print the current track with all horse positions.
+Simulate function takes two arguments: horses (number of horses) and trackL (track length). Then create an array of horse objects with names.
+Then the function enters a while loop where a random horse is chosen to move.
+After every move, current state of the track is printed.
+If the horse that just moved is at the end then the winning statement is printed and it exits the while loop.
+
+
+Output:
+User interface.
+Displays the current state of the track after each move.
+When a horse reaches the end of the track, it announces the winner.
+
